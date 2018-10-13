@@ -1,0 +1,137 @@
+h1 { 
+	font-style: italic;
+	color: grey	; 
+	font-size: 35px;
+	padding:10px;
+
+}
+
+#menu {
+		display:flex;
+	justify-content: flex-end;
+
+}
+
+h2 a{ 
+	color: red;
+	font-size: 30px;
+	margin: 10px 0px;
+	font-family: "Georgia", serif;
+	letter-spacing: 1px;
+	font-weight: 100;
+	text-decoration: none;
+}
+h2 a:hover{ 
+	color: blue;
+	text-decoration: none;
+}
+h3 a {
+	color: black;
+	font-family: Times New Roman;
+	font-size: 25px;
+	font-family: "Georgia", serif;
+	letter-spacing: 1px;
+	font-weight: 100;
+	text-decoration: none;
+}
+ul{
+	margin: 0;
+	padding: 10px;
+	text-decoration: none;
+}
+ul li{
+	display: inline;
+	margin-right: 2px;
+}
+ul li a {
+	color: #A9A9A9	;
+	margin:0px;
+	text-align: right;
+	font-size: 20px;
+	text-decoration: none;
+	}
+ul li a:hover {
+	color: green;
+}
+* {
+	padding: 0;
+	margin: 10px 10px;
+}
+
+p { 
+	font-size: 18px;
+	padding: 10px;
+	font-family: Times New Roman;
+	color: grey; 
+	line-height: 22px;
+}
+.det a{
+	color:red;
+}
+.det a:hover{
+	color: blue;
+}
+#footer a {
+	color: red;
+}
+#footer a:hover {
+	color: blue;
+}
+.info a {
+	color: grey;
+	border-bottom: 1px dotted #000;
+	text-decoration: none;
+}
+.info a:hover {
+	color: blue;
+	border-bottom: 1px dotted #000;
+}
+.details {
+	width: 20%;
+	height: auto;
+	float: left;
+	border-right: 1px solid grey;
+	padding: 5px;
+}
+.body {
+	padding: 5px;
+	width: 100%;
+	height: auto;
+}
+.col {
+	width: 30%;
+	float: left;
+}
+#footer {
+	float: left;
+	width: 100%;
+	border-top: 1px solid grey;
+}
+.x {
+	border: 0.2px solid grey;
+	clear: both;
+}
+.post {
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+	.col {
+		width: 50%;
+	}
+	.details {
+		width: 100%;
+		border-right: 0px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.col {
+		width: 100%;
+	}
+
+	.details {
+		width: 100%;
+		border-right: 0px;
+	}
+}
